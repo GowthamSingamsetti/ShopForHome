@@ -1,0 +1,23 @@
+﻿ProductId,ProductName,Price,Stock,Description,ProductIcon,CategoryType
+B0009,Core Java,15,100,Java 8 Features,https://m.media-amazon.com/images/P/B01M0E28Q4.01._SCLZZZZZZZ_SX500_.jpg,0
+C0003,Jacket,18,15,Black Jacket,https://m.media-amazon.com/images/I/61T0orudVHL._UL1500_.jpg,2
+D0005,Sprite,2,400,300ml Flavoured Drink,https://www.kindpng.com/picc/m/336-3361296_sprite-can-ml-hd-png-download.png,3
+B0008,Python Programming,30,250,Python for Beginners,https://m.media-amazon.com/images/I/518JSMYkY7L.jpg,0
+C0001,T-Shirt,12,15,Designer Cotton T-Shirt,https://m.media-amazon.com/images/I/51w7bn+zn6L._UL1000_.jpg,2
+C0002,Shirt,15,260,Casual Slimfit,https://m.media-amazon.com/images/I/61100SqRbcL._UL1500_.jpg,2
+B0007,Programming with Java,25,100,Java Crash Course,https://m.media-amazon.com/images/P/B07TT6DV66.01._SCLZZZZZZZ_SX500_.jpg,0
+B0010,Bone Series,16,155,Vol-3 Edition,https://m.media-amazon.com/images/P/0439706386.01._SCLZZZZZZZ_SX500_.jpg,0
+B0011,Aladdin,24,289,Adventures of Genei,https://images-na.ssl-images-amazon.com/images/I/71d1Qj+qRCL.jpg,0
+D0004,Capuccino,5,200,Pure Coffee Beans,https://media.istockphoto.com/photos/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks-picture-id505168330?b=1&k=20&m=505168330&s=170667a&w=0&h=jJTePtpYZLR3M2OULX5yoARW7deTuAUlwpAoS4OriJg=,3
+D0001,Veg Pizza,12,125,Extra Cheese & Toppings,https://c4.wallpaperflare.com/wallpaper/1017/647/742/food-pizza-still-life-hd-wallpaper-preview.jpg,3
+D0002,Chicken Nuggets,10,200,Fresh & Crispy,https://static.toiimg.com/thumb/83114901.cms?width=1200&height=900,3
+D0003,French Fries,7,300,Salty & Crunchy,https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60,3
+B0003,Urban Grey Sofa,65,0,Cotton Fabric Material,https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antalya-1-seater-sofa-in-grey-colour-by-urban-living-antalya-1-seater-sofa-in-grey-colour-by-urban-l-joiarq.jpg,0
+B0001,Red Velvet Sofa,105,25,2 Seater Leather Sofa,https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/patrick-two-seater-sofa-in-red--colour-by-durian-patrick-two-seater-sofa-in-red--colour-by-durian-f9mycq.jpg,0
+B0002,3 Seater Recliner,135,40,Brown Leatherette Sofa,https://ii1.pepperfry.com/media/catalog/product/f/o/800x880/four-square-3-seater-recliner-in-brown-colour-by-star-india-four-square-3-seater-recliner-in-brown-c-d1btgh.jpg,0
+B0004,Victoria Bed,200,80,Queen Size Matte Finish,https://ii1.pepperfry.com/media/catalog/product/v/i/800x880/victoria-queen-size-bed-with-hydraulic-storage-in-gloss-finish-by-a-globia-creations-victoria-queen--1ufsbs.jpg,0
+B0005,Beatrice Bed,225,15,Queen Size Honey Finish,https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beatrice-queen-size-bed-with-storage-in-honey-finish-by-evok-beatrice-queen-size-bed-with-storage-in-zjnwli.jpg,0
+B0006,Teak Dining Set,150,60,6 Seater Brown Finish,https://ii1.pepperfry.com/media/catalog/product/s/e/800x880/segur-solid-wood-6-seater-dining-set-in-provincial-teak-finish-by-woodsworth-segur-solid-wood-6-seat-z7e0rt.jpg,0
+F0001,Black Plant Pot,20,90,Ceramic Set of 3 pots,https://ii1.pepperfry.com/media/catalog/product/b/l/800x880/black-ceramic-balti-shape-desk-pot--set-of-3-by-justoriginals-black-ceramic-balti-shape-desk-pot--se-bydkut.jpg,1
+F0002,Bonsai Tray Pot,26,110,Blue Ceramic Tray pot,https://ii1.pepperfry.com/media/catalog/product/b/l/800x880/blue-ceramic-medium-circular-bonsai-tray-desk-pot-by-justoriginals-blue-ceramic-medium-circular-bons-mzt0hc.jpg,1
+F0003,Blue Ceramic Pot,24,289,Sky blue Owl Shape,https://ii1.pepperfry.com/media/catalog/product/s/k/800x880/sky-blue-ceramic-owl-shape-medium-planter-by-justoriginals-sky-blue-ceramic-owl-shape-medium-planter-aixl8r.jpg,1

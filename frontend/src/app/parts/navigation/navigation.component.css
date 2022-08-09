@@ -1,0 +1,44 @@
+#bg-color {
+    background: rgb(36, 32, 32);
+    
+}
+/*
+#bg2-color {
+    background: rgb(59, 61, 64);
+}
+*/
+#bg-hover:hover{
+    background: rgb(177, 178, 181);
+    transition: background 1.2s;
+}
+
+#animation {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 22%;
+    animation: animtext 3s steps(80, end); 
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes animtext { 
+    from {
+        width: 0;
+       transition: all 2s ease-in-out;
+    } 
+  }
+
+#animation:hover {
+    color:blue;
+    transition: color 1.2s;
+}
+
+
+
+
+
+
+
+
+
+
+

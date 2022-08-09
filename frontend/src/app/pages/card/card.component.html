@@ -1,0 +1,81 @@
+<div style="margin-bottom: 30px; margin-left: 2px">
+  <h1
+    align="center"
+    class="display-4 mb-6 text-primary font-weight-bold"
+    style="text-shadow: 0px 0px 11px hsl(58, 95%, 57%)"
+  >
+    Great Indian Festival Sale!!
+  </h1>
+  <!-- { title } -->
+</div>
+<div align="center">
+  <h3 style="margin-bottom: 30px; margin-left: 2px; margin-right: 2px">
+    <i class="fa fa-search icon"> </i>
+    <input
+      type="text"
+      align="right"
+      name="search"
+      style="width: 19%; border-radius: 50px; border: 2px solid black"
+      [(ngModel)]="searchText"
+      placeholder="What are you looking for?"
+    />
+  </h3>
+</div>
+
+<div class="row card-deck text-center">
+  <div
+    *ngFor="let productInfo of page?.content | filter: searchText"
+    class="col-lg-4"
+  >
+    <div class="card mb-3" id="shadow">
+      <img
+        height="100px"
+        style="height: 300px"
+        class="card-img-top"
+        src="{{ productInfo.productIcon }}"
+        alt="{{ productInfo.productName }}"
+      />
+      <div class="card-body">
+        <h3>
+          <h4 class="card-title text-success font-weight-bold">
+            {{ productInfo.productName }}
+          </h4>
+        </h3>
+
+        <div class="text-left">
+          <h5>
+            <p class="card-test">
+              <strong>Product Description: </strong
+              >{{ productInfo.productDescription }}
+            </p>
+          </h5>
+
+          <h5>
+            <p class="card-text">
+              <strong>Price: </strong>{{ productInfo.productPrice | currency }}
+            </p>
+          </h5>
+
+          <h5>
+            <p class="card-text">
+              <strong>Stock: </strong>{{ productInfo.productStock }}
+            </p>
+          </h5>
+        </div>
+        <br />
+        <a
+          routerLink="/product/{{ productInfo.productId }}"
+          *ngIf="productInfo.productStatus == 0; else offBlock"
+          class="btn btn-success btn-lg font-weight-bold"
+          >Buy Now</a
+        >
+        <ng-template #offBlock
+          ><a class="btn btn-warning btn-lg disabled font-weight-bold"
+            >Out of stock!</a
+          ></ng-template
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<app-pagination [currentPage]="page"></app-pagination>
